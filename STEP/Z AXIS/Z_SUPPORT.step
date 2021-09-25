@@ -10,13 +10,12 @@ FILE_DESCRIPTION(
 
 FILE_NAME(
 /* name */ 
-'C:/Users/Alberto/Documents/GitHub/VERTEX-XL/STEP/ACCESORIES/Z_support.
-step',
-/* time_stamp */ '2021-05-15T11:30:57+02:00',
+'C:/Users/juanf/My Tresors/Documentos/VERTEX/XL/STEPS/Z_SUPPORT.step',
+/* time_stamp */ '2021-09-09T23:57:33+02:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v18.1',
-/* originating_system */ 'Autodesk Translation Framework v10.6.0.1341',
+/* originating_system */ 'Autodesk Translation Framework v10.10.0.1391',
 
 /* authorisation */ '');
 
@@ -28,7 +27,7 @@ DATA;
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#3178,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#3170);
 #13=STYLED_ITEM('',(#3188),#14);
-#14=MANIFOLD_SOLID_BREP('Body1',#1715);
+#14=MANIFOLD_SOLID_BREP('Z_SUPPORT',#1715);
 #15=(
 BOUNDED_SURFACE()
 B_SPLINE_SURFACE(3,1,((#2766,#2767),(#2768,#2769),(#2770,#2771),(#2772,
@@ -3833,15 +3832,15 @@ SOLID_ANGLE_UNIT()
 #3177=PRODUCT_DEFINITION_SHAPE('',$,#3180);
 #3178=SHAPE_REPRESENTATION('',(#1728),#3170);
 #3179=PRODUCT_DEFINITION_CONTEXT('part definition',#3184,'design');
-#3180=PRODUCT_DEFINITION('Z_support','Z_support',#3181,#3179);
+#3180=PRODUCT_DEFINITION('Z_SUPPORT','Z_SUPPORT v1',#3181,#3179);
 #3181=PRODUCT_DEFINITION_FORMATION('',$,#3186);
-#3182=PRODUCT_RELATED_PRODUCT_CATEGORY('Z_support','Z_support',(#3186));
+#3182=PRODUCT_RELATED_PRODUCT_CATEGORY('Z_SUPPORT v1','Z_SUPPORT v1',(#3186));
 #3183=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#3184);
 #3184=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #3185=PRODUCT_CONTEXT('part definition',#3184,'mechanical');
-#3186=PRODUCT('Z_support','Z_support',$,(#3185));
+#3186=PRODUCT('Z_SUPPORT','Z_SUPPORT v1',$,(#3185));
 #3187=PRESENTATION_STYLE_ASSIGNMENT((#3189));
 #3188=PRESENTATION_STYLE_ASSIGNMENT((#3190));
 #3189=SURFACE_STYLE_USAGE(.BOTH.,#3191);
